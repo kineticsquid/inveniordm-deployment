@@ -1,0 +1,6 @@
+.dockerignore
+__pycache__
+.gcloudignore
+.gitignore
+*.sh
+readme.md

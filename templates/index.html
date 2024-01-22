@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form id="loginout-form">
+    <button type="submit" form="loginout-form" formaction="/loginout">{{loginout}}</button>
+</form>
+
+<ul>
+    <li><a href="/build">This build</a></li>
+    <li><a href="https://us-central1-my-lambda-functions.cloudfunctions.net/sudoku-bot-ui-page">Sudoku Bot</a></li>
+    <li><a href="https://sudoku-u4sp7ks5ea-uc.a.run.app/">Sudoku Solver</a></li>
+    <li><a href="https://blossom-u4sp7ks5ea-uc.a.run.app/">Blossom Solver</a></li>
+    <li><a href="https://us-central1-my-lambda-functions.cloudfunctions.net/comics">Comics</a></li>
+    <li><a href="https://us-central1-my-lambda-functions.cloudfunctions.net/solarEdge?pw=fred">SolarEdge</a></li>
+    <li><a href="https://calendar-u4sp7ks5ea-uc.a.run.app">Calendar</a></li>
+    <li><a href="https://us-central1-my-lambda-functions.cloudfunctions.net/foo">Foo Lambda Function</a></li>
+
+</ul>
+{% endblock %}
